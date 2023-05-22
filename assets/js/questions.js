@@ -1,36 +1,20 @@
-//list of all question objects in an array
-var questions = [
+// Quiz questions
+const quizQuestions = [
     {
-      title: 'Commonly used data types DO NOT include:',
-      choices: ['strings', 'booleans', 'alerts', 'numbers'],
-      answer: 'alerts',
+      question: "Question 1: What are the least common data types?",
+      options: ["booleans", "alerts", "numbers", "strings"],
+      answer: "alerts"
     },
     {
-      title: 'The condition in an if / else statement is enclosed within ____.',
-      choices: ['quotes', 'curly brackets', 'parentheses', 'square brackets'],
-      answer: 'parentheses',
+      question: "Question 2: in an if / else statement, what is it enclosed with?",
+      options: ["curly brackets", "parentheses", "quotes", "square brackets"],
+      answer: "parentheses"
     },
     {
-      title: 'Arrays in JavaScript can be used to store ____.',
-      choices: [
-        'numbers and strings',
-        'other arrays',
-        'booleans',
-        'all of the above',
-      ],
-      answer: 'all of the above',
-    },
-    {
-      title:
-        'String values must be enclosed within ____ when being assigned to variables.',
-      choices: ['commas', 'curly brackets', 'quotes', 'parentheses'],
-      answer: 'quotes',
-    },
-    {
-      title:
-        'A very useful tool used during development and debugging for printing content to the debugger is:',
-      choices: ['JavaScript', 'terminal / bash', 'for loops', 'console.log'],
-      answer: 'console.log',
+      question: "Question 3: for printing content to the debugger, what is the best tool to do so?",
+      options: ["for loops", "terminal / bash", "console.log", "javascript"],
+      answer: "console.log" 
     },
   ];
+
   
